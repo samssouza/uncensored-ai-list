@@ -38,6 +38,7 @@ Everyone is welcome to add models via PR.
 | [MPT-7B Chat](https://huggingface.co/mosaicml/mpt-7b-chat) | MosaicML | Proprietary | None | 65K | ~14 GB | RTX 3080 Ti / RTX 4070 Ti | 🔵 Consumer |
 | [Vicuna 13B v1.5-16K](https://huggingface.co/lmsys/vicuna-13b-v1.5-16k) | LMSYS | LLaMA 2 13B | None (has inherent LLaMA 2 base bias; add alignment separately) | 16K | ~26 GB | RTX 3090 / RTX 4090 | 🟡 Prosumer |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | Nomic AI | Various (GGUF) | None | Varies by backend model | ~4–8 GB | RTX 3060 / CPU capable | 🟢 Edge |
+| [Daredevil-8b](https://huggingface.co/mlabonne/Daredevil-8B-abliterated) | mlabonne | Meta-Llama-3-8B | None | 8K | ~4-8 GB | RTX 3060/ CPU capable | 🟢 Edge |
 | [DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai) | DeepSeek | Proprietary MoE (1.6T / 49B active) | None | 1M | ~3.2 TB FP16 (MoE; 49B active ≈ ~100 GB) | Multi-node H100 / Huawei Ascend | 🔴 Multi-GPU |
 | [Qwen3.5 122B](https://huggingface.co/Qwen) | Alibaba | Proprietary MoE (122B / 10B active) | None | 128K | ~10B active fits 64 GB RAM; ~244 GB full weights | Mac M3 Ultra 192GB / A100 80GB ×4 | 🔴 Multi-GPU |
 | [Mistral Large 3](https://huggingface.co/mistralai) | Mistral AI | Proprietary 123B | None | 128K | ~246 GB | A100 80GB ×4 | 🔴 Multi-GPU |
